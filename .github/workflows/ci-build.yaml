@@ -1,0 +1,13 @@
+name: CI Build
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Nothing yet
+        run: echo "CI skeleton in place – real steps coming next"
